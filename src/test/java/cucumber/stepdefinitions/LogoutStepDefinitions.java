@@ -30,8 +30,8 @@ public class LogoutStepDefinitions {
         ChromeWebDriver.quit();
     }
 
-    @Given("the user is logged in as standard user log out from sauce demo website")
-    public void theUserIsLoggedInAsStandardUserLogOutFromSauceDemoWebsite() {
+    @Given("the user is logged in as standard user for log out from sauce demo website")
+    public void theUserIsLoggedInAsStandardUserForLogOutFromSauceDemoWebsite() {
         CommonStepDefinitions.theUserIsLoggedInAsStandardUser(loginPage);
     }
 
